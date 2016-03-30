@@ -1,4 +1,4 @@
-# Các loại Filesystem
+# Các loại Filesystem trong Linux
 
 ### Journaling
 -	Khi một file được ghi vào ổ cứng, file sẽ được ghi vào Journaling trước.
@@ -28,3 +28,9 @@ XFS  |8EiB  |8EiB|Có (metadata)|Hoạt động hiệu quả với các file kí
 
 ###### Note: `Metadata`: là những thuộc tính của file như inodes, ngày tạo,...
 
+### Tham khảo
+
+Để biết thêm chi tiết xin vui lòng truy cập:
+
+- Link: https://help.ubuntu.com/community/LinuxFilesystemsExplained
+- 
