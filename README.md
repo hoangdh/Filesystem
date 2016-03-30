@@ -33,4 +33,3 @@ XFS  |8EiB  |8EiB|Có (metadata)|Hoạt động hiệu quả với các file kí
 Để biết thêm chi tiết xin vui lòng truy cập:
 
 - Link: https://help.ubuntu.com/community/LinuxFilesystemsExplained
-- 
