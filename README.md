@@ -55,6 +55,7 @@ Xem dung lượng đã sử dung, còn trống,...
 `# df -h`
 
 `-h` xem dung lượng với đơn vị KiB, GiB,...
+`-T` Hiển thị Type của filesystem
 
 <img src="http://i.imgur.com/53iMzS4.png" />
 
@@ -64,3 +65,4 @@ Xem dung lượng đã sử dung, còn trống,...
 
 - Link: https://help.ubuntu.com/community/LinuxFilesystemsExplained
 - Link: http://dev-random.net/finding-folder-size-with-du-and-disk-space-left-with-df-in-linux/
+- Link: http://www.tecmint.com/how-to-check-disk-space-in-linux/
