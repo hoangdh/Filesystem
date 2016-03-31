@@ -40,7 +40,7 @@ Xem dung lượng của các file ở thư mục hiện tại và tổng dung l�
 
 Xem dung lượng của các sub-folder
 
-`# du -Sh`
+`# du -h`
 
 <img src="http://i.imgur.com/ODrbUbW.png" />
 
@@ -55,6 +55,7 @@ Xem dung lượng đã sử dung, còn trống,...
 `# df -h`
 
 `-h` xem dung lượng với đơn vị KiB, GiB,...
+
 `-T` Hiển thị Type của filesystem
 
 <img src="http://i.imgur.com/53iMzS4.png" />
