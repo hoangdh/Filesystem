@@ -58,7 +58,7 @@ Xem dung lượng đã sử dung, còn trống,...
 
 `-T` Hiển thị Type của filesystem
 
-<img src="http://i.imgur.com/53iMzS4.png" />
+<img src="http://i.imgur.com/ZnVhhHT.png" />
 
 ### Tham khảo
 
