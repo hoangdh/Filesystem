@@ -27,6 +27,30 @@ JFS  |4PiB  |32PiB|Có (metadata)||
 XFS  |8EiB  |8EiB|Có (metadata)|Hoạt động hiệu quả với các file kích thước lớn. Phù hợp với các mô hình File Server|
 
 ###### Note: `Metadata`: là những thuộc tính của file như inodes, ngày tạo,...
+### Xem dung lượng của file, thư mục, ổ đĩa
+Sử dụng hai câu lệnh `du` và `df`
+
+#### File
+
+Xem dung lượng của các file ở thư mục hiện tại và tổng dung lượng hiện tại
+
+`# du -sh *`
+
+<img src="http://i.imgur.com/83UZbLo.png" />
+
+Ngoài ra, còn nhiều thuộc tính khác xem thêm bằng câu lệnh
+
+`# du --help`
+
+#### Với ổ đĩa
+
+Xem dung lượng đã sử dung, còn trống,...
+
+`# df -h`
+
+`-h` xem dung lượng với đơn vị KiB, GiB,...
+
+<img src="http://i.imgur.com/53iMzS4.png" />
 
 ### Tham khảo
 
