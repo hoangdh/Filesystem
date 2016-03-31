@@ -17,14 +17,14 @@ Các đơn vị đang phổ biến
 
 ### Các loại Filesystem
 
-Định dạng  | Kích thước tối đa của file | Kích thước tối đa của Partition | Journaling | Ghi chú |
---- | --- | --- | ---| --- |
-ext2  |2TiB  |32TiB|Không||
-ext3  |2TiB  |32TiB|Có||
-ext4  |16TiB  |1EiB|Có||
-reiserFS|8TiB |16TiB|Có|Hoạt động hiệu quả với các file kích thước nhỏ như Logs, ...|
-JFS  |4PiB  |32PiB|Có (metadata)||
-XFS  |8EiB  |8EiB|Có (metadata)|Hoạt động hiệu quả với các file kích thước lớn. Phù hợp với các mô hình File Server|
+Định dạng  | Kích thước tối đa của file | Kích thước tối đa của Partition | Journaling | Số file trong Folder| Số Folder| Ghi chú |
+--- | --- | --- | ---| --- | --- | --- |
+ext2  |2TiB  |32TiB|Không|10^18|||
+ext3  |2TiB  |32TiB|Có||||
+ext4  |16TiB  |1EiB|Có||||
+reiserFS|8TiB |16TiB|Có|||Hoạt động hiệu quả với các file kích thước nhỏ như Logs, ...|
+JFS  |4PiB  |32PiB|Có (metadata)||||
+XFS  |8EiB  |8EiB|Có (metadata)|||Hoạt động hiệu quả với các file kích thước lớn. Phù hợp với các mô hình File Server|
 
 ###### Note: `Metadata`: là những thuộc tính của file như inodes, ngày tạo,...
 
