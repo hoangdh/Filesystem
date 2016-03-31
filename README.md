@@ -30,7 +30,7 @@ XFS  |8EiB  |8EiB|Có (metadata)|Hoạt động hiệu quả với các file kí
 ### Xem dung lượng của file, thư mục, ổ đĩa
 Sử dụng hai câu lệnh `du` và `df`
 
-#### File
+#### Câu lệnh `du`
 
 Xem dung lượng của các file ở thư mục hiện tại và tổng dung lượng hiện tại
 
@@ -38,11 +38,17 @@ Xem dung lượng của các file ở thư mục hiện tại và tổng dung l�
 
 <img src="http://i.imgur.com/83UZbLo.png" />
 
+Xem dung lượng của các sub-folder
+
+`# du -Sh`
+
+<img src="http://i.imgur.com/ODrbUbW.png" />
+
 Ngoài ra, còn nhiều thuộc tính khác xem thêm bằng câu lệnh
 
 `# du --help`
 
-#### Với ổ đĩa
+#### Câu lệnh `df`
 
 Xem dung lượng đã sử dung, còn trống,...
 
@@ -57,3 +63,4 @@ Xem dung lượng đã sử dung, còn trống,...
 Để biết thêm chi tiết xin vui lòng truy cập:
 
 - Link: https://help.ubuntu.com/community/LinuxFilesystemsExplained
+- Link: http://dev-random.net/finding-folder-size-with-du-and-disk-space-left-with-df-in-linux/
