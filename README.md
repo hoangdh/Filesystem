@@ -42,7 +42,7 @@ Xem dung lượng của các sub-folder
 
 `# du -h`
 
-<img src="http://i.imgur.com/ODrbUbW.png" />
+<img src="http://i.prntscr.com/7151ae0f47f74beebff2b47397d4bab0.png" />
 
 Ngoài ra, còn nhiều thuộc tính khác xem thêm bằng câu lệnh
 
